@@ -1,7 +1,7 @@
 # Global_Configuration
 Used for personal customization and configuration 
 
-## 1 AWS CLI Configuration
+##  AWS CLI Configuration
 
 ```css
 vim ~/.bashrc
