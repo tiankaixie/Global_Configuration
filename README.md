@@ -3,12 +3,12 @@ Used for personal customization and configuration
 
 ## 1 AWS CLI Configuration
 
-```
+```css
 vim ~/.bashrc
 ```
 input the following
 
-```css
+```
 alias aws='aws --output text'
 alias del-volume='aws ec2 delete-volume --volume-id'
 alias instance='aws ec2 run-instances --image-id' 
@@ -24,6 +24,6 @@ alias volumes='aws ec2 describe-volumes'
 ```
 
 restart bashrc
-```
+```css
 . ~/.bashrc
 ```
